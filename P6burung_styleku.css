@@ -1,0 +1,85 @@
+body {
+    background-color: #F5F5DD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+
+#header h1 {
+    color: blue;
+}
+
+#header blockquote {
+    background-color: yellow;
+}
+
+.menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.gambar img {
+    width: 20%;
+}
+
+.bigger {
+    font-size: 20px;
+}
+
+.fp::first-letter {
+    font-size: 50px;
+    color: blue;
+}
+
+.koleksi {
+    text-align: center;
+}
+
+.koleksi img {
+    width: 20%;
+}
+
+.cod{
+ margin: auto;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+            }
+
+.cod p{
+                background-color: aqua;
+                border: 1px dotted red;
+                text-align: center;
+                font-weight: bold;
+                color: blue;
+                margin: 0 auto;
+            }
+
+.bigger{
+color: #CD5C5C;
+text-align: center;
+}
+                
+#tombol blockquote {
+background-color:green;
+            }
+
+button{
+background-color: yellow;
+color: red;
+border: 0;
+            }
+#tombol{
+text-align: center
+}
