@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <select id="img_picker">
+            <option hidden> ---Pilih---</option>
+            <option value="elang" id="image01">Elang</option>
+            <option value="singa" id="image02">Singa</option>
+            <option value="kelinci" id="image03">Kelinci</option>
+            <option value="cendrawasih" id="image04">Cendrawasih</option>
+            <option value="gorila" id="image05">Gorila</option>
+        </select>
+        <br><br>
+    </div>
+    <button onclick="getOption()">View Image</button>
+        <br><br>
+    <div id="output"></div>
+
+    <script>
+        function getOption() {
+            selectElement = document.querySelector('#img_picker').value;
+            if (selectElement == 'elang'){
+            document.getElementById('output').innerHTML = '<img src="elang.jpg" style="width:300px">';
+        }
+            else if (selectElement == 'singa'){
+            document.getElementById('output').innerHTML = '<img src="singa.jpg" style="width:300px">';
+        }
+            else if (selectElement == 'kelinci'){
+            document.getElementById('output').innerHTML = '<img src="kelinci.jpg" style="width:300px">';
+        }
+            else if (selectElement == 'cendrawasih'){
+            document.getElementById('output').innerHTML = '<img src="cendrawasih.jpg" style="width:300px">';
+        }
+            else if (selectElement == 'gorila'){
+            document.getElementById('output').innerHTML = '<img src="gorila.jpg" style="width:300px">';
+        }
+            
+            
+        }
+    </script>
+</body>
+
+</html>
