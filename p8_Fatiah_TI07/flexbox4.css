@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+nav {
+    background-color: pink;
+    flex: 5;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 15rem;
+}
+
+header {
+    background-color: Khaki;
+    padding: 1rem;
+    width: 65rem;
+    height: 5rem;
+}
+
+main {
+    display: flex;
+}
+
+main article {
+    background-color: honeydew;
+    flex: 3;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+main aside {
+    background-color: Cyan;
+    flex: 1;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 15rem;
+    height: 26.25rem;
+}
+
+footer {
+    background-color: Khaki;
+    display flex: 1;
+    padding: 1rem;
+    width: 65rem;
+    height: 5rem;
+}
